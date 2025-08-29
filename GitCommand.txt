@@ -1,0 +1,7 @@
+git add -A
+git commit -m "commit message"
+git push origin master
+git pull "gitrepoURL"
+
+git clone "gitrepoURL"
+
