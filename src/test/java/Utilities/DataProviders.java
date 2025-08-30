@@ -13,7 +13,7 @@ public class DataProviders {
 		
         return new Object[][] {
             {"user1@gmail.com", "pass1","invalid"},
-            {newUserEmail, "Aaaaa@11","valid"},
+            {newUserEmail, "Bbbbbb@11","valid"},
             {"user3@sdfdf.cc", "pass3","invalid"},
             
         };

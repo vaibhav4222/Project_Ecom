@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/vaibhav4222/Project1_Ecom.git'
+                git branch: 'master', url: 'https://github.com/vaibhav4222/Project_Ecom.git'
             }
         }
 

@@ -24,10 +24,10 @@ public class TC01_AccountRegister extends BaseClass  {
 		
 		logger.info("Test cases started");
 
-		RegiP.setText_FirstName("Mahesh");
+		RegiP.setText_FirstName("Vaibhav");
 		
 
-		RegiP.setText_LastName("Patil");
+		RegiP.setText_LastName("Tanwade");
 		logger.info(" Entered First and Last Name");
 
 
@@ -35,9 +35,9 @@ public class TC01_AccountRegister extends BaseClass  {
 
 		RegiP.setText_Company("CorporateWorld");
 
-		RegiP.setText_Password("Aaaaa@11");
+		RegiP.setText_Password("Bbbbbb@11");
 
-		RegiP.setText_ConfirmPassword("Aaaaa@11");
+		RegiP.setText_ConfirmPassword("Bbbbbb@11");
 
 		RegiP.clickRegister();
 		logger.info("Assertion sucess message assertion starts");
@@ -47,7 +47,7 @@ public class TC01_AccountRegister extends BaseClass  {
 		Assert.assertEquals(actualM, "Your registration completed");
 		
 		logger.info("assertion done...");
-		
+		System.out.println("Registration done...Password is Bbbbbb@11");
 		home.clickLogout();
 		}
 		catch(Exception e) {
